@@ -4,7 +4,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column-reverse;
-	gap: 5rem;
+	gap: 20px;
 }
 .hero__left__wrapper {
 	max-width: 350px;
@@ -14,12 +14,13 @@
 	width: 80%;
 	margin: 0 auto;
 }
+
 .hero__heading {
 	font-family: Poppins;
-	font-weight: 600;
-	line-height: 1.4em;
+	font-weight: 700;
+	line-height: 1.3em;
 	text-align: center;
-	font-size: 1.8rem;
+	font-size: 1.7rem;
 	margin-bottom: 1.5rem;
 	color: var(--black-1);
 }
@@ -70,6 +71,17 @@
 		flex: 1;
 	}
 }
+
+#hero video{
+	z-index:000;
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
 /* Our Specials Section Styles */
 #ourSpecials {
 	padding-top: 10rem;
