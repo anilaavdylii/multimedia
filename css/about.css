@@ -78,3 +78,23 @@
 		margin: 0 auto;
 	}
 }
+
+h3.ourStory__title {
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  30% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+
