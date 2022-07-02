@@ -40,11 +40,10 @@ ourHouses{
 	padding: 1.5rem;
 	border-radius: 12px;
 }
-.video{
+video {
+	margin-right: 50vw;
 	display: block;
 	margin: auto;
-	margin-left: 50vw;
-	transform: translate(-50%);
 }
 
 .ourHouses__item__img,
