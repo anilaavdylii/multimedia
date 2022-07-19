@@ -167,8 +167,6 @@ window.onload = function() {
 
 
 
-
-
 const panels = document.querySelectorAll('.panel') /* selects all panels and puts them into a node list (similar to array) */
 
 panels.forEach((panel) => { /* loops through each panel */
@@ -183,4 +181,3 @@ function removeActiveClasses() {
     panel.classList.remove('active')
   })
 }
-

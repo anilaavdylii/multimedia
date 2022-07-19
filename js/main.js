@@ -106,3 +106,8 @@ const rewind = (e) => {
 const forward = (e) => {
     video.currentTime = video.currentTime + ((video.duration/100) * 5)
 }
+
+
+
+
+
