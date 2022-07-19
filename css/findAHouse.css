@@ -4,9 +4,18 @@
 	padding-bottom: 2rem;
 }
 .page__title__text {
-	font-size: 2.2rem;
+	font-size: 4.2rem;
 	color: var(--black-1);
 	text-align: center;
+}
+ p{
+    text-align:center;
+    font-size: 2.5rem;
+    color:aqua;
+}
+video{
+    margin-left: 10vw;
+
 }
 @media only screen and (min-width: 768px) {
 	#page__title {
@@ -181,4 +190,5 @@ ourHouses{
     flex:1;
     font-size: 1.5rem;
 }
+
 
