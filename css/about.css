@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
 /* Our Story Styles */
 .ourStory__wrapper {
 	display: flex;
@@ -133,3 +135,39 @@ h3.ourStory__title {
 }
 
 
+*{
+	box-sizing: border-box;
+}
+
+
+#counter {
+	background-color: var(--green-2);
+	color: white;
+	font-family: "Roboto Mono", sans-serif;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	max-height: 20vh;
+	overflow: hidden;
+	margin: 0;
+  }
+  
+  .counter-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 30px 50px;
+  }
+  
+  .counter {
+	font-size: 60px;
+	margin-top: 10px;
+  }
+  
+  @media (max-width: 580px) {
+	body {
+	  flex-direction: column;
+	}
+  }
+  
