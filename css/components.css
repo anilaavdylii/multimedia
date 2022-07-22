@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* Nav Styles */
+
 .nav {
 	padding: 2rem 0;
 }
@@ -39,7 +39,6 @@
 @media only screen and (max-width: 768px) {
 	.nav {
 		position: relative;
-		/* overflow-x: scroll; */
 	}
 	.nav__icon {
 		display: block;
@@ -99,8 +98,8 @@
 		display: block;
 	}
 }
-/* End Nav Styles */
-/* Global Button Styles */
+
+
 .btn {
 	color: var(--green-1);
 	font-family: Poppins;
@@ -119,9 +118,8 @@
 		font-size: 1.5rem;
 	}
 }
-/* End Global Button Styles */
 
-/* Store info section styles*/
+
 .storeInfo__wrapper {
 	display: flex;
 	justify-content: center;
@@ -174,7 +172,6 @@
 	}
 }
 
-/* Dishes Grid */
 .dishGrid__title {
 	font-size: 1.8rem;
 	margin-bottom: 2rem;
@@ -183,7 +180,6 @@
 }
 .dishGrid__wrapper {
 	display: grid;
-	/* grid-template-columns: repeat(autofit, minmax(140px, 1fr)); */
 	grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 	gap: 1rem;
 }
@@ -245,9 +241,8 @@
 		margin-bottom: 1rem;
 	}
 }
-/* Dishes Grid */
 
-/* Footer Styles */
+
 footer {
 	background: var(--lightGreen-1);
 	padding-top: 5rem;
@@ -349,9 +344,7 @@ footer {
 		text-align: left;
 	}
 }
-/* End Footer Styles */
 
-/* Form Styles */
 #form {
 	padding: 5rem 0;
 }
@@ -424,7 +417,7 @@ footer {
 }
 
 
-/* preloader */
+
 .loader{
     position: fixed;
     top: 0;
@@ -1074,7 +1067,6 @@ footer {
 
 ::-webkit-scrollbar-thumb{
 	border-radius: 10px;
-	/* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
 	background-color: #a9cbe6;
 }
 
