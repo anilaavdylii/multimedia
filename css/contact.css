@@ -59,3 +59,84 @@
     }
 
 }
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+  }
+  
+  .modal-animation {
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.1s;
+  }
+  
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .modal {
+    margin: 0 auto;
+    width: 90%;
+  overflow: hidden;
+    background: #fff;
+    background-image: url("https://www.equityreleasesupermarket.com/slicing/resources/images/bg-ask.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+     animation: 7s slide-up;
+    animation-delay: 0.1s;
+  }
+  
+  @keyframes slide-up {
+    from {
+      margin-top: 100%;
+    }
+  
+    to {
+      margin-top: 0%;
+    }
+  }
+  
+  .coloured-bar {
+    background-image: linear-gradient(to right, #7fc0da, #4694b8);
+    height: 7px;
+    margin-bottom: 5px;
+  }
+  
+  .modal-inner {
+    padding: 20px;
+  }
+  
+  .close-button {
+    color: #00374b;
+    padding: 5px;
+    border: solid 1px #00374b;
+    border-radius: 50%;
+    width: 20px;
+    float: right;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+
+  body {
+    font-family: tahoma;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
