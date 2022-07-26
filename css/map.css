@@ -6,6 +6,9 @@ img{
   margin-right: auto;
 }
 
+section{
+  background-color: var(--lightGreen-2);
+}
 
 
 .title-word {
@@ -52,4 +55,5 @@ img{
   font-weight: 800;
   font-size: 1.5vw;
   text-transform: uppercase;
+  text-align: center;
 }
